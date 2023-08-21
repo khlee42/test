@@ -1,0 +1,34 @@
+/*
+@theme my-theme
+*/
+
+@import 'rose-pine-moon';
+
+:root {
+    --rose: #ea9d34;
+    /* font-family: 'Noto Sans', sans-serif; */
+}
+h1 {
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* color: var(--gold); */
+}
+/* for footnote */
+h4 {
+    border-top: 0.1em dashed #555;
+    font-size: 0.7em;
+    /* margin-top: auto; */
+}
+/* for two columns */
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+/* for centering image */
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+section.lead h1 {
+    text-align: center;
+}
